@@ -49,7 +49,7 @@
     <li>Mithai Crush is a puzzle game for children and families. You do not need an account, a login, an email address or a phone number to play.</li>
     <li>The game itself does not ask for, collect or store your name, email, phone number, contacts, photos, precise location or any other personal information.</li>
     <li>Your game progress is saved on your device. The game works fully offline.</li>
-    <li>The game shows ads through Unity LevelPlay. Ads are configured as <strong>child-directed</strong> and <strong>non-personalised</strong>: no interest-based ads, no remarketing, and the game does not use the Android Advertising ID.</li>
+    <li>The game shows ads through Google AdMob. Ads are configured as <strong>child-directed</strong> and <strong>non-personalised</strong>: no interest-based ads, no remarketing, and the game does not use the Android Advertising ID.</li>
     <li>If online features are switched on, an anonymous player ID is used to back up progress and show a stars leaderboard (see section 4).</li>
     <li>We do not sell or rent any data, and we do not share data for advertising profiles.</li>
     <li>There are no in-app purchases, no chat and no way for players to talk to each other.</li>
@@ -67,8 +67,8 @@
 </section>
 
 <section>
-  <h2>3. Advertising (Unity LevelPlay)</h2>
-  <p>Mithai Crush is free and is supported by ads delivered through <strong>Unity LevelPlay</strong> (ad mediation by Unity Technologies, formerly ironSource) and, through LevelPlay, only ad networks that take part in Google Play's Families Self-Certified Ads SDK Program.</p>
+  <h2>3. Advertising (Google AdMob)</h2>
+  <p>Mithai Crush is free and is supported by ads delivered through <strong>Google AdMob</strong> (the Google Mobile Ads SDK, by Google LLC), which takes part in Google Play's Families Self-Certified Ads SDK Program. No other ad network or mediation SDK is used.</p>
   <h3>How ads appear</h3>
   <ul>
     <li>A full-screen ad may appear when the game is started (never on the very first launch after installing, and never when returning to the game from the background).</li>
@@ -77,12 +77,12 @@
   </ul>
   <h3>How ads are configured for children</h3>
   <ul>
-    <li>All ad requests are marked as <strong>child-directed</strong> (COPPA / "tag for child-directed treatment") and as <strong>non-personalised</strong>: no consent for personalised ads is given, and "do not sell" is set.</li>
-    <li>The game removes the Android <strong>Advertising ID</strong> permission and asks the ad SDK not to collect device advertising identifiers.</li>
-    <li>Ad content is limited to a general-audience ("G") rating where the networks support it, and sensitive ad categories are blocked in the ad network settings.</li>
+    <li>All ad requests are marked as <strong>child-directed</strong> (COPPA / "tag for child-directed treatment") and as <strong>under the age of consent</strong>, and are <strong>non-personalised</strong> (personalisation is switched off for every request).</li>
+    <li>The game removes the Android <strong>Advertising ID</strong> permission, so the ad SDK cannot read the device advertising identifier.</li>
+    <li>Ad content is limited to a general-audience ("G") rating, and sensitive ad categories are blocked in the AdMob settings.</li>
   </ul>
   <h3>What the ad SDK may process</h3>
-  <p>To deliver and measure ads, count impressions and prevent fraud, the ad SDK and ad networks may automatically process technical information such as: IP address (which can indicate an approximate region), device make and model, operating system version, language, screen size, network type, app version, and ad interaction events (for example that an ad was shown, closed or clicked), plus crash and performance diagnostics of the SDK. In child-directed mode this information is used only for contextual (non-personalised) ads, frequency capping, reporting, security and fraud prevention, not to build advertising profiles. Unity's own practices are described in the <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener">Unity Game Player and App User Privacy Policy</a>.</p>
+  <p>To deliver and measure ads, count impressions and prevent fraud, the ad SDK and ad networks may automatically process technical information such as: IP address (which can indicate an approximate region), device make and model, operating system version, language, screen size, network type, app version, and ad interaction events (for example that an ad was shown, closed or clicked), plus crash and performance diagnostics of the SDK. In child-directed mode this information is used only for contextual (non-personalised) ads, frequency capping, reporting, security and fraud prevention, not to build advertising profiles. Google's practices are described in <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use our services</a> and the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
 </section>
 
 <section>
